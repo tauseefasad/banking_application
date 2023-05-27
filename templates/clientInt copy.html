@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/Cstyles.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/chome">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <div class="main-cont">
+        <div class=cont1>
+            <div class="cont2">
+                <div class="top">
+                    <h1>Welcome</h1>
+                    <p>{{name}}</p>
+                </div>
+                <div class="left-mid">
+                    <div class="checkings">
+                        <h2><a href="">Cheaquing Account</a></h2>
+                        <div class="ba">
+                            {{cbalance}}
+                            {{caccno}}
+                        </div>
+                    </div>
+                    <div class="savings">
+                        <h2><a href="">Savings account</a></h2>
+                        <div class="ba">
+                            {{sbalance}}
+                            {{saccno}}
+                        </div>
+                    </div>
+                    <div class="credit">
+                        <h2><a href="">Credit Account</a></h2>
+                        <div class="ba">
+                            {{crbalance}}
+                            {{craccno}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-mid">
+                <div class="loan"><a href="">Apply for a loan</a></div>
+                <div class=""><a href="">Apply for a credit card</a></div>
+                <div class=""><a href="">Open a savings account</a></div>
+                <div class=""><a href="">View Transactions</a></div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="settings"><a href="">settings</a></div>
+            <div class=""><a href="">Notifications</a></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+

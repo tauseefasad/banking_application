@@ -1,0 +1,28 @@
+{%extends "interface.html"%}
+
+{% block link %} <link rel="stylesheet" type="text/css" href="/static/style1.css"> {% endblock %}
+{% block content %}
+<header>
+    <nav>
+        <ul>
+            <li><a href="/thome">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="container">
+        <div class="dashboard">
+            <div class="name">
+                <h1>Name</h1>
+                <p>{{name}}</p>
+                <h1>Employee ID</h1>
+                <p>{{ID}}</p>
+            </div>
+        </div>
+        <div class="features">
+            <div class="register"><a href="/reg">Register a client</a></div>
+            <div class="register"><a href="/find">Find a client</a></div>
+        </div>
+    </div>
+{% endblock %}

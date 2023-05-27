@@ -1,0 +1,33 @@
+{%extends "interface.html"%}
+
+{% block link %}
+<link rel="stylesheet" type="text/css" href="/static/style1.css"> {% endblock %}
+
+
+{% block content %}
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/thome">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="dashboard">
+        <div class="name">
+            <h1>Name</h1>
+            <p>{{name}}</p>
+            <h1>Account No</h1>
+            <p>{{accno}}</p>
+            <h1>Password</h1>
+            <p>{{passwd}}</p>
+            <h1>Email</h1>
+            <p>{{email}}</p>
+            <h1>Phone</h1>
+            <p>{{phone}}</p>
+            <h1>Addrress</h1>
+            <p>{{addr}}</p>
+        </div>
+    </div>
+{% endblock %}
